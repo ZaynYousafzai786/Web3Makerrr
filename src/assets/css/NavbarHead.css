@@ -1,0 +1,36 @@
+.custom-link {
+    color: #333;
+    font-weight: bold;
+    font-size: 500px;
+}
+
+
+.nav {
+    background: linear-gradient(to right, #77dd77, #b19cd9);
+    background-attachment: fixed;
+}
+
+.nav-links {
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.5s ease, transform 0.3s ease;
+    pointer-events: auto;
+}
+
+.nav-links .nav-link-path {
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    color: #ffff00;
+    transform: scale(1.1);
+}
+
+.nav-btn {
+    margin-right: 20px;
+    margin-right: 20px;
+    width: 150px;
+}

@@ -1,0 +1,105 @@
+.body-bg {
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    background: url('../imgs/NFT BG.png') center/cover no-repeat, linear-gradient(to right, #544e45, #9f8438);
+    background-attachment: fixed;
+}
+
+.cccontain .rrrow-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cccontain .rrrow-1 h1 {
+    font-size: 70px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.cccontain .rrrow-1 p {
+    font-size: 34px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    color: #c2bcbc;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.rrrow-2 .cccol-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.rrrow-2 .cccol-1 p {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    color: #B4B4B4;
+    margin-bottom: 20px;
+}
+
+.rrrow-2 .cccol-2 img {
+    width: 99%;
+    height: auto;
+    margin: 10px;
+}
+
+
+
+
+/* Tablet view */
+@media (max-width: 991.98px) {
+    .cccontain .rrrow-1 h1 {
+        font-size: 50px;
+    }
+
+    .cccontain .rrrow-1 p {
+        font-size: 24px;
+    }
+}
+
+.rrrow-2 .cccol-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.rrrow-2 .cccol-1 p {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    color: #B4B4B4;
+    margin-bottom: 20px;
+}
+
+.rrrow-2 .cccol-2 img {
+    width: 99%;
+    height: auto;
+    margin: 10px;
+}
+
+/* Mobile view */
+@media (max-width: 767.98px) {
+    .body-bg {
+        padding-top: 30px;
+    }
+
+    .cccontain .rrrow-1 h1 {
+        font-size: 40px;
+    }
+
+    .cccontain .rrrow-1 p {
+        font-size: 20px;
+    }
+
+    .rrrow-2 .cccol-1 p {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,182 @@
+.contain-1 {
+    background: linear-gradient(to right, #ffffff, #d8b4ff);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logo-rrow-1 {
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.logo-rrow-1 img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rrow-2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.rrow-2 img {
+    width: auto;
+    height: 700px;
+    margin-left: 60px;
+}
+
+.rrow-2 h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.rrow-2 p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #979797;
+}
+
+
+
+.rrow-2 Button {
+    background-color: #6F348E;
+    width: 150px;
+    height: auto;
+    margin-top: 5px;
+}
+
+
+
+.rrow-3 img {
+    width: 90%;
+    height: 700px;
+    margin-left: 60px;
+}
+
+.rrow-3 h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.rrow-3 p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #979797;
+}
+
+.rrow-3 .nums {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #18ADE4;
+}
+
+.rrow-3 span {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #979797;
+}
+
+.rrow-3 Button {
+    background-color: #6F348E;
+    width: 150px;
+    height: auto;
+    margin-top: 5px;
+}
+
+
+
+/** Tablet responsiveness **/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .logo-rrow-1 {
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 10px;
+    }
+
+    .logo-rrow-1 img {
+        width: auto;
+        margin-right: 10px;
+    }
+
+    .rrow-2 img,
+    .rrow-3 img {
+        width: 100%;
+        height: 600px;
+        margin-left: 0;
+    }
+
+    .rrow-2 h1,
+    .rrow-3 h1 {
+        font-size: 30px;
+    }
+
+    .rrow-2 p,
+    .rrow-3 p,
+    .rrow-3 .nums,
+    .rrow-3 span {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+    .logo-rrow-1 {
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 10px;
+
+        margin-right: 60px;
+    }
+
+    .logo-rrow-1 img {
+        width: auto;
+        padding-right: 10px;
+    }
+
+    .rrow-2 Button {
+        margin-bottom: 20px;
+    }
+
+    .rrow-2 img,
+    .rrow-3 img {
+        width: 100%;
+        height: 400px;
+        margin-left: 0;
+
+    }
+
+    .rrow-2 h1,
+    .rrow-3 h1 {
+        font-weight: 300;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+    }
+
+    .rrow-2 p,
+    .rrow-3 p,
+    .rrow-3 .nums,
+    .rrow-3 span {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+    }
+}
