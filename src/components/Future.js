@@ -15,17 +15,13 @@ const Future = () => {
     };
 
     return (
-        <ScrollTrigger onEnter={handleScroll}>
-            <div className={`animated-content ${isVisible ? 'show' : ''}`}>
-                {/* Your content here */}
+        <div className='body-bg'>
+            <ScrollTrigger onEnter={handleScroll}>
+                <div className={`animated-content ${isVisible ? 'show' : ''}`}>
+                    {/* Your content here */}
 
+                    <>
 
-
-
-
-
-                <>
-                    <div className='body-bg'>
                         <Container className='cccontain' fluid="md">
 
 
@@ -47,16 +43,11 @@ const Future = () => {
                                 </Col>
                             </Row>
                         </Container>
-                    </div>
-                </>
 
-
-
-
-
-
-            </div>
-        </ScrollTrigger>
+                    </>
+                </div>
+            </ScrollTrigger>
+        </div>
     );
 };
 
